@@ -1,0 +1,73 @@
+<!doctype html>
+<!--
+  ============================================================
+  GABARIT D'ARTICLE DE BLOG | Binyan Bitoun (NE PAS INDEXER TEL QUEL)
+  ============================================================
+  Mode d'emploi :
+  1. Copier ce fichier dans /blog/<slug-de-l-article>/index.html (FR),
+     puis /en/blog/<slug>/index.html et /he/blog/<slug>/index.html pour les traductions.
+  2. Remplacer tous les {{...}}. Retirer la balise meta robots noindex.
+  3. Garder UN SEUL <h1>, puis des <h2>/<h3> dans l'ordre.
+  4. GEO : commencer chaque section par une réponse courte et factuelle (1-2 phrases),
+     citer l'entité « Binyan Bitoun, entreprise de rénovation dirigée par Elie Bitoun »,
+     ajouter un bloc FAQ en fin d'article (et son JSON-LD FAQPage).
+  5. Ajouter l'URL dans sitemap.xml (avec ses alternates hreflang) et dans llms.txt.
+  6. Pour reprendre header/footer identiques, le plus simple est d'ajouter l'article
+     dans _build/build.py (fonction à créer sur le modèle de build_about) et de relancer le script.
+-->
+<html lang="fr" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, follow"><!-- À SUPPRIMER à la publication -->
+<title>{{Titre SEO, 55-60 caractères}} | Binyan Bitoun</title>
+<meta name="description" content="{{Meta description 140-155 caractères, avec la requête principale}}">
+<link rel="canonical" href="https://www.binyanbitoun.com/blog/{{slug}}/">
+<link rel="alternate" hreflang="fr" href="https://www.binyanbitoun.com/blog/{{slug}}/">
+<link rel="alternate" hreflang="en" href="https://www.binyanbitoun.com/en/blog/{{slug-en}}/">
+<link rel="alternate" hreflang="he" href="https://www.binyanbitoun.com/he/blog/{{slug-he}}/">
+<link rel="alternate" hreflang="x-default" href="https://www.binyanbitoun.com/blog/{{slug}}/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="{{Titre}}">
+<meta property="og:description" content="{{Description}}">
+<meta property="og:image" content="https://www.binyanbitoun.com/assets/brand/og-default.jpg">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap">
+<link rel="stylesheet" href="/css/site.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[
+ {"@type":"BlogPosting","headline":"{{Titre}}","description":"{{Description}}","inLanguage":"fr",
+  "datePublished":"{{AAAA-MM-JJ}}","dateModified":"{{AAAA-MM-JJ}}",
+  "author":{"@id":"https://www.binyanbitoun.com/#elie"},"publisher":{"@id":"https://www.binyanbitoun.com/#business"},
+  "mainEntityOfPage":"https://www.binyanbitoun.com/blog/{{slug}}/","image":"https://www.binyanbitoun.com/assets/brand/og-default.jpg"},
+ {"@type":"BreadcrumbList","itemListElement":[
+  {"@type":"ListItem","position":1,"name":"Accueil","item":"https://www.binyanbitoun.com/"},
+  {"@type":"ListItem","position":2,"name":"Blog","item":"https://www.binyanbitoun.com/blog/"},
+  {"@type":"ListItem","position":3,"name":"{{Titre court}}","item":"https://www.binyanbitoun.com/blog/{{slug}}/"}]},
+ {"@type":"FAQPage","mainEntity":[
+  {"@type":"Question","name":"{{Question 1}}","acceptedAnswer":{"@type":"Answer","text":"{{Réponse 1}}"}}]}
+]}
+</script>
+</head>
+<body>
+<main id="main">
+  <section class="page-hero"><div class="container">
+    <nav class="crumbs" aria-label="Fil d’Ariane"><ol><li><a href="/">Accueil</a></li><li><a href="/blog/">Blog</a></li><li aria-current="page">{{Titre court}}</li></ol></nav>
+    <h1>{{H1 de l'article (unique)}}</h1>
+    <p class="lead">{{Chapeau : réponse directe en 2 phrases}}</p>
+  </div></section>
+  <section class="section"><div class="container prose">
+    <p class="answer">{{En bref : la réponse factuelle que les moteurs IA pourront citer.}}</p>
+    <h2>{{Section 1}}</h2>
+    <p>{{Texte}}</p>
+    <h3>{{Sous-section}}</h3>
+    <p>{{Texte}}</p>
+    <h2>{{Section 2}}</h2>
+    <ul class="checks"><li><span>{{Point}}</span></li></ul>
+    <h2>Questions fréquentes</h2>
+    <div class="faq"><details><summary><h3>{{Question 1}}</h3><span class="pm"></span></summary><div class="faq-a"><p>{{Réponse 1}}</p></div></details></div>
+    <p><a href="/contact/">Parler de votre projet avec Binyan Bitoun</a></p>
+  </div></section>
+</main>
+<script src="/js/site.js" defer></script>
+</body>
+</html>
