@@ -548,3 +548,12 @@ blockquote{margin:0 0 28px}
 @media(max-width:699px){
   .grid:has(> .svc-card) > .svc-more{grid-column:1/-1;min-height:0;flex-direction:row;align-items:center;gap:12px;padding:14px}
 }
+/* blog */
+.blog-card{display:flex;flex-direction:column;gap:10px;text-decoration:none;color:inherit;padding:24px}
+.blog-card time{font-size:.8rem;font-weight:700;color:var(--muted)}
+.blog-card h2{font-size:1.15rem;margin:0}
+.blog-card p{color:var(--muted);margin:0}
+.blog-card .link-arrow{margin-top:auto;color:var(--accent)}
+.prose-wide ol{padding-inline-start:22px}
+.prose-wide ol li{margin-bottom:.5em}
+.blog-mention{margin-top:36px;padding-top:16px;border-top:1px solid var(--line);color:var(--muted);font-size:.88rem}
