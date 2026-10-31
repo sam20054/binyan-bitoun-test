@@ -568,3 +568,10 @@ blockquote{margin:0 0 28px}
 .art-table thead th{background:var(--navy);color:#fff;font-weight:700}
 .art-table tbody tr:last-child th,.art-table tbody tr:last-child td{border-bottom:0}
 .art-sources{font-size:.9rem;padding-inline-start:20px}
+.art-toc{background:var(--sky-2);border:1px solid var(--line);border-radius:14px;padding:18px 22px;margin-bottom:8px}
+.art-toc-t{font-weight:800;margin:0 0 8px;color:var(--navy)}
+.art-toc ol{margin:0;padding-inline-start:20px}
+.art-toc li{margin-bottom:.3em;font-size:.95rem}
+.art-toc a{color:var(--navy);text-decoration:none}
+.art-toc a:hover{text-decoration:underline}
+.prose-wide h2[id]{scroll-margin-top:90px}
