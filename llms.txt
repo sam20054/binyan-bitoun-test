@@ -12,7 +12,7 @@
 - Téléphone / WhatsApp : +972 58-523-0103 (https://wa.me/972585230103)
 - E-mail : Bitoun.elie@gmail.com
 - Instagram : https://www.instagram.com/binyan_bitoun
-- Services : Rénovation d’appartement, Dégâts des eaux et humidité, Peinture et fissures, Plâtre et faux plafonds (gypse), Climatisation : pose et intégration, Nettoyage de climatisation, Cuisines et placards, Éclairage LED, Étanchéité balcons et toits, Salle de bain, WC et buanderie, Aménagement sur mesure
+- Services : Rénovation d’appartement, Dégâts des eaux et humidité, Peinture et fissures, Plâtre et faux plafonds (gypse), Climatisation : pose et intégration, Nettoyage de climatisation, Cuisines et placards, Éclairage LED, Étanchéité balcons et toits, Salle de bain, WC et buanderie, Carrelage, Aménagement sur mesure
 - Positionnement : finitions soignées, chantier propre, délais respectés, communication en français, suivi à distance (photos/vidéos WhatsApp)
 - Non communiqué publiquement : adresse, horaires, année de création, tarifs (ne pas inventer)
 
@@ -28,6 +28,7 @@
 - [Éclairage LED](https://www.binyanbitoun.com/services/eclairage-electricite/): Rubans LED, éclairage d’allées et de façades, mise en valeur intérieure et extérieure.
 - [Étanchéité balcons et toits](https://www.binyanbitoun.com/services/etancheite-balcons-toits/): Étanchéité de balcons, toits-terrasses et murets : sols, relevés, gouttières.
 - [Salle de bain, WC et buanderie](https://www.binyanbitoun.com/services/salle-de-bain/): Rénovation de WC, salle de bain et buanderie : meubles suspendus, finitions, éclairage.
+- [Carrelage](https://www.binyanbitoun.com/services/carrelage/): Pose de carrelage au sol et au mur : salles de bain, cuisines, WC, buanderies et balcons.
 - [Aménagement sur mesure](https://www.binyanbitoun.com/services/amenagement-sur-mesure/): Optimisation des recoins, niches, meubles suspendus et rangements sur mesure.
 - [Tel Aviv-Yafo](https://www.binyanbitoun.com/villes/tel-aviv/): Vieux Nord, Neve Tsedek, Florentine, Jaffa
 - [Ramat Gan](https://www.binyanbitoun.com/villes/ramat-gan/): Bourse, Ramat Chen, centre-ville
@@ -56,6 +57,7 @@
 - [LED lighting](https://www.binyanbitoun.com/en/services/lighting/): LED strips, path and façade lighting, indoor and outdoor accent lighting.
 - [Balcony & roof waterproofing](https://www.binyanbitoun.com/en/services/waterproofing/): Waterproofing of balconies, flat roofs and parapets: floors, upstands, gutters.
 - [Bathroom, WC & laundry](https://www.binyanbitoun.com/en/services/bathroom/): WC, bathroom and laundry makeovers: floating vanities, finishes, lighting.
+- [Tiling](https://www.binyanbitoun.com/en/services/tiling/): Floor and wall tiling: bathrooms, kitchens, WCs, laundries and balconies.
 - [Custom fitting & space optimisation](https://www.binyanbitoun.com/en/services/custom-fitting/): Making the most of corners and niches: floating units and built-in storage.
 - [Tel Aviv-Yafo](https://www.binyanbitoun.com/en/areas/tel-aviv/): Old North, Neve Tzedek, Florentin, Jaffa
 - [Ramat Gan](https://www.binyanbitoun.com/en/areas/ramat-gan/): Diamond Exchange, Ramat Chen, city centre
@@ -84,6 +86,7 @@
 - [תאורת לד](https://www.binyanbitoun.com/he/services/lighting/): פסי לד, תאורת שבילים וחזיתות, תאורת אווירה בפנים ובחוץ.
 - [איטום מרפסות וגגות](https://www.binyanbitoun.com/he/services/waterproofing/): איטום מרפסות, גגות שטוחים וקירות: רצפה, הגבהות ומרזבים.
 - [חדר רחצה, שירותים וכביסה](https://www.binyanbitoun.com/he/services/bathroom/): חידוש שירותים, חדר רחצה ופינת כביסה: ארונות תלויים, גימורים ותאורה.
+- [ריצוף וחיפוי](https://www.binyanbitoun.com/he/services/tiling/): ריצוף וחיפוי קירות: חדרי רחצה, מטבחים, שירותים, פינות כביסה ומרפסות.
 - [התאמה אישית וניצול חללים](https://www.binyanbitoun.com/he/services/custom-fitting/): ניצול פינות ונישות: ארונות תלויים ופתרונות אחסון בהתאמה אישית.
 - [תל אביב-יפו](https://www.binyanbitoun.com/he/areas/tel-aviv/): הצפון הישן, נווה צדק, פלורנטין, יפו
 - [רמת גן](https://www.binyanbitoun.com/he/areas/ramat-gan/): הבורסה, רמת חן, מרכז העיר

@@ -539,3 +539,12 @@ blockquote{margin:0 0 28px}
   .svc-more .ico{width:42px;height:42px;border-radius:12px;margin:0}
   .svc-more .ico svg{width:22px;height:22px}
 }
+/* 12 services : la carte « Un autre projet ? » devient un bandeau pleine largeur */
+.grid:has(> .svc-card) > .svc-more{grid-column:1/-1;min-height:0;flex-direction:row;flex-wrap:wrap;align-items:center;justify-content:flex-start;gap:8px 18px;padding:22px 26px}
+.grid:has(> .svc-card) > .svc-more .ico{margin:0}
+.grid:has(> .svc-card) > .svc-more h2,.grid:has(> .svc-card) > .svc-more h3{margin:0}
+.grid:has(> .svc-card) > .svc-more p{margin:0;flex:1 1 320px}
+.grid:has(> .svc-card) > .svc-more .link-arrow{margin:0}
+@media(max-width:699px){
+  .grid:has(> .svc-card) > .svc-more{grid-column:1/-1;min-height:0;flex-direction:row;align-items:center;gap:12px;padding:14px}
+}
