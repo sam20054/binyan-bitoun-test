@@ -601,3 +601,4 @@ blockquote{margin:0 0 28px}
 .art-body p{line-height:1.7}
 .art-steps{padding-inline-start:22px}
 .art-steps li{margin-bottom:.7em;line-height:1.6}
+.art-body h2{font-size:clamp(1.35rem,1.2rem + .7vw,1.7rem);line-height:1.25;color:var(--navy)}
