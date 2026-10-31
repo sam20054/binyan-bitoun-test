@@ -575,3 +575,29 @@ blockquote{margin:0 0 28px}
 .art-toc a{color:var(--navy);text-decoration:none}
 .art-toc a:hover{text-decoration:underline}
 .prose-wide h2[id]{scroll-margin-top:90px}
+/* mise en page d'article : sommaire fixe à gauche, colonne de lecture à droite */
+.art-wrap{padding:36px 0 64px}
+.art-layout{display:grid;gap:32px}
+@media(min-width:1000px){.art-layout{grid-template-columns:250px minmax(0,760px);gap:56px;justify-content:center}}
+.art-index{display:none}
+@media(min-width:1000px){.art-index{display:block;position:sticky;top:96px;align-self:start;max-height:calc(100vh - 120px);overflow:auto}.art-index-m{display:none}}
+.art-index-t{font-weight:800;color:var(--navy);margin:0 0 12px}
+.art-index ol,.art-index-m ol{list-style:none;margin:0;padding:0}
+.art-index li{margin-bottom:12px;font-size:.88rem;line-height:1.35}
+.art-index a,.art-index-m a{color:var(--muted);text-decoration:none}
+.art-index a:hover,.art-index a.on{color:var(--navy);font-weight:700}
+.art-index-m{border:1px solid var(--line);border-radius:12px;padding:12px 16px;margin-top:22px;background:var(--sky-2)}
+.art-index-m summary{font-weight:800;color:var(--navy);cursor:pointer}
+.art-index-m li{padding:8px 0;font-size:.95rem;border-top:1px solid var(--line)}
+.art-index-m ol{margin-top:10px}
+.art-body .crumbs,.art-body .crumbs a,.art-body nav[aria-label] a{color:var(--muted)}
+.art-body .art-meta{color:var(--muted);margin:14px 0 4px}
+.art-cat{color:var(--accent);font-weight:700;font-size:.9rem;margin:10px 0 8px}
+.art-body h1{color:var(--navy);font-size:clamp(1.9rem,1.5rem + 1.9vw,2.7rem);line-height:1.15;margin:0 0 26px}
+.art-body h3.art-label{font-size:1.2rem;margin:0 0 6px;text-transform:none;letter-spacing:0;color:var(--navy)}
+.art-body .art-answer{font-size:1.06rem;line-height:1.6;margin:0 0 22px;color:var(--ink,#0A1D38);background:none;padding:0;max-width:none}
+.art-body h2{margin-top:52px;margin-bottom:12px;scroll-margin-top:92px}
+.art-body h3{margin-top:26px;margin-bottom:6px;font-size:1.1rem}
+.art-body p{line-height:1.7}
+.art-steps{padding-inline-start:22px}
+.art-steps li{margin-bottom:.7em;line-height:1.6}
