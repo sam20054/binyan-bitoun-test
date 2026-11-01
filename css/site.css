@@ -687,3 +687,6 @@ blockquote{margin:0 0 28px}
 .wa-demo .tag{display:table;margin:0 auto 12px;background:#FFE9A8;color:#5A4300;font-weight:800;font-size:.75rem;padding:3px 10px;border-radius:999px}
 .wa-demo .ctl{display:table;margin:10px auto 0;background:none;border:1px solid var(--line);border-radius:999px;padding:6px 14px;font:700 .82rem Manrope,sans-serif;color:var(--navy);cursor:pointer}
 @media(prefers-reduced-motion:reduce){.wa-demo .msg,.wa-demo .typing i{animation:none}}
+/* galerie : photos simples */
+.g-photo{display:block;width:100%;border:0;padding:0;background:#0a1d38;cursor:zoom-in}
+.g-photo img{display:block;width:100%;height:auto}
