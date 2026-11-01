@@ -578,6 +578,7 @@ blockquote{margin:0 0 28px}
 /* mise en page d'article : sommaire fixe à gauche, colonne de lecture à droite */
 .art-wrap{padding:36px 0 64px}
 .art-layout{display:grid;gap:32px}
+.art-body{min-width:0}
 @media(min-width:1000px){.art-layout{grid-template-columns:250px minmax(0,760px);gap:56px;justify-content:center}}
 .art-index{display:none}
 @media(min-width:1000px){.art-index{display:block;position:sticky;top:96px;align-self:start;max-height:calc(100vh - 120px);overflow:auto}.art-index-m{display:none}}
