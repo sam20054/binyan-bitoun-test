@@ -40,10 +40,18 @@
   $$(".mobile-close").forEach(function (b) { b.addEventListener("click", function () { setMenu(false); }); });
   d.addEventListener("keydown", function (e) { if (e.key === "Escape" && menu && menu.classList.contains("open")) setMenu(false); });
   $$(".nav-drop").forEach(function (b) {
+    var li = b.parentNode;
+    function fermer() { li.classList.remove("open"); b.setAttribute("aria-expanded", "false"); }
     b.addEventListener("click", function () {
-      var li = b.parentNode, o = !li.classList.contains("open");
-      li.classList.toggle("open", o); b.setAttribute("aria-expanded", o);
+      // au survol le menu est déjà visible : un clic doit donc le fermer
+      var visible = li.classList.contains("open") || (li.matches(":hover") && !li.classList.contains("closed"));
+      li.classList.toggle("open", !visible); li.classList.toggle("closed", visible);
+      b.setAttribute("aria-expanded", !visible);
+      if (visible) b.blur();
     });
+    li.addEventListener("mouseleave", function () { li.classList.remove("closed"); });
+    d.addEventListener("click", function (e) { if (!li.contains(e.target)) fermer(); });
+    d.addEventListener("keydown", function (e) { if (e.key === "Escape") fermer(); });
   });
 
   /* ---------- Micro-interaction boutons (halo qui suit la souris) ---------- */
