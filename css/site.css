@@ -629,3 +629,13 @@ blockquote{margin:0 0 28px}
 .map .city text{font-size:12.5px}
 .map .city.active circle.dot,.map .city:hover circle.dot,.map .city:focus circle.dot{r:8}
 .map text.map-credit{font-size:8px;fill:#6B7C95}
+/* accessibilité (IS 5568) : animations décoratives arrêtées avant 5 secondes */
+.map .city circle.pulse{animation-iteration-count:1;animation-fill-mode:forwards}
+.wa-float::before{animation-iteration-count:2;animation-fill-mode:forwards}
+.vthumb .play::before{animation:none}
+/* pages légales */
+.legal h2{margin-top:32px;font-size:1.3rem}
+.legal ul{padding-inline-start:22px}
+.legal mark.ph{background:#FFE9A8;color:#5A4300;padding:1px 6px;border-radius:4px;font-weight:700}
+.legal .maj{margin-top:32px;color:var(--muted);font-size:.9rem}
+.f-legal a{white-space:nowrap}

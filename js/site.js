@@ -137,6 +137,7 @@
       (function loop(t) {
         if (!auto) return;
         if (!start) start = t;
+        if (t - start > 4500) { stopAuto(); ba.classList.remove("touched"); return; }  // accessibilité : pas de mouvement automatique au-delà de 5 s
         if (visible) set(50 + Math.sin((t - start) / 1400) * 32);
         raf = requestAnimationFrame(loop);
       })(performance.now());
